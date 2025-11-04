@@ -13,7 +13,7 @@ print(greeting)
 **Output:** <mark>Hello, my name is Mike and I am 39 years old.</mark>
 
 ## Conditional Expressions
-You can include conditional expressions within f-strings to dynamically change the output based on certain conditions. For example, show the word `Passed` if the value of `score` is greater than or equal to 60, else show the word `Failed`:
+You can include conditional expressions within f-strings to dynamically change the output based on certain conditions. For example, show the word `Passed` if the value of `score` is greater than or equal to `60`, else show the word `Failed`:
 ```python
 score = 85
 result = f'You have {"Passed" if score >= 60 else "Failed"} the exam!'
