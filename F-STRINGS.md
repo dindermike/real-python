@@ -10,7 +10,7 @@ age = 39
 greeting = f'Hello, my name is {name} and I am {age} years old.'
 print(greeting)
 ```
-**Output:** ==Hello, my name is Mike and I am 39 years old.==
+**Output:** <mark>Hello, my name is Mike and I am 39 years old.</mark>
 
 ## Conditional Expressions
 You can include conditional expressions within f-strings to dynamically change the output based on certain conditions. For example, show the word `Passed` if the value of `score` is greater than or equal to 60, else show the word `Failed`:
@@ -19,7 +19,7 @@ score = 85
 result = f'You have {"Passed" if score >= 60 else "Failed"} the exam!'
 print(result)
 ```
-**Output:** ==You have Passed the exam!==
+**Output:** <mark>You have Passed the exam!</mark>
 
 ## Method Invocations
 You can call methods directly within the curly braces of an f-string. For example, to format a name with title case:
@@ -28,7 +28,7 @@ name = 'bilbo baggins'
 greeting = f'Hello, {name.title()}!'
 print(greeting)
 ```
-**Output:** ==Hello, Bilbo Baggins!==
+**Output:** <mark>Hello, Bilbo Baggins!</mark>
 
 ## Format Specifiers
 You can use format specifiers to control the formatting of numbers, dates, and other types. For example, to format a floating-point number, rounded to two decimal places:[^1]
@@ -39,8 +39,8 @@ formatted_e = f"Euler's Number rounded to 2 decimal places: {e:.2f}"
 print(e)
 print(formatted_e)
 ``` 
-**Output:** ==2.718281828459045==<br />
-&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;==Euler's Number rounded to 2 decimal places: 2.72==
+**Output:** <mark>2.718281828459045</mark><br />
+&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<mark>Euler's Number rounded to 2 decimal places: 2.72</mark>
 
 Here, we are using the double quote rather than the single quote to demonstrate that f-strings can be created with either type of quotation marks and is done so here to avoid confusion with the apostrophe in "Euler's".
 
@@ -57,9 +57,9 @@ Age: {age}
 Occupation: {occupation.title()}'''
 print(bio)
 ```
-**Output:** ==Name: Frodo Baggins==<br />
-&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;==Age: 50==<br />
-&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;==Occupation: Ring Bearer==
+**Output:** <mark>Name: Frodo Baggins</mark><br />
+&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<mark>Age: 50</mark><br />
+&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<mark>Occupation: Ring Bearer</mark>
 
 ## To Recap
 F-strings provide a powerful and flexible way to format strings in Python. They allow for embedding expressions, conditional logic, method calls, and formatting specifications directly within string literals, making code more readable and concise.
