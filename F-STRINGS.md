@@ -42,7 +42,7 @@ print(formatted_e)
 **Output:** <mark>2.718281828459045</mark><br />
 &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<mark>Euler's Number rounded to 2 decimal places: 2.72</mark>
 
-Here, we are using the double quote rather than the single quote to demonstrate that f-strings can be created with either type of quotation marks and is done so here to avoid confusion with the apostrophe in "Euler's".
+*Here, we are using the double quote rather than the single quote to demonstrate that f-strings can be created with either type of quotation marks and is done so here to avoid confusion with the apostrophe in "Euler's".*
 
 [^1]: Note: The format specifier `:.2f` indicates that the number should be formatted as a floating-point number with 2 digits after the decimal point. This will round the number following "Bankers' Rounding" rules. To round up or down consistently, consider using the `math.ceil()` or the `math.floor()` methods instead.
 
